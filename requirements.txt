@@ -1,5 +1,5 @@
 aiofiles==23.2.1
-aiohappyeyeballs @ file:///home/conda/feedstock_root/build_artifacts/aiohappyeyeballs_1739175731979/work
+# aiohappyeyeballs @ file:///home/conda/feedstock_root/build_artifacts/aiohappyeyeballs_1739175731979/work
 aiohttp @ file:///D:/bld/aiohttp_1740481456133/work
 aiosignal @ file:///home/conda/feedstock_root/build_artifacts/aiosignal_1734342155601/work
 annotated-types==0.7.0
