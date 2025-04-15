@@ -32,7 +32,7 @@ DEBUG = os.environ.get("DEBUG", "False").lower() == "True"
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split()
 
 
-# Application definition
+# Application definitionc
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -132,3 +132,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
